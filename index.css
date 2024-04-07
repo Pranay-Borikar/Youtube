@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    margin-right: 3px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header--left{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header--left span{
+    padding: 0 7px;
+    cursor: pointer;
+}
+.header--left img{
+    width: 110px;
+    mix-blend-mode: multiply; /*remove img bg*/
+}
+
+.header--search form{
+    display: flex;
+    margin: 0;
+    height: 40px;
+}
+
+.header--search button{
+    border: 1px solid silver;
+    border-radius: 0 150px 150px 0;
+    span{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.header--search form input{
+    border: 1px solid silver;
+    font-size: 90%;
+    width: 600px;
+    padding: 1px;
+    padding-left: 15px;
+    border-radius: 150px 0 0 150px;
+}
+
+.header--icons span{
+    padding: 0 7px;
+    cursor: pointer;
+}
+/*──────────────────────────
+      Appliacation parts Baby
+─────────────────────────────*/
+.section
+{  
+    padding-top: 5px; 
+    padding-left: 12px;
+    cursor: pointer;
+    width: 250px;
+    position: fixed;
+}
+.section:hover{
+    height: 660px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/*────────────────────────────
+    Appliacation part 1 Baby
+──────────────────────────────*/
+.applications-1
+{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.application-1_1
+{
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    span
+    {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+}
+.application-1_1:hover
+{
+    background: rgb(240, 240, 240);
+    width: 200px;
+    border-radius: 10px 10px;
+}
+/*────────────────────────────
+    Appliacations part 2 Baby
+──────────────────────────────*/
+.applications-2
+{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 4px;
+}
+.application-2_1
+{
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    span
+    {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+}
+.application-2_1:hover
+{
+    background: rgb(240, 240, 240);
+    width: 200px;
+    border-radius: 10px 10px;
+}
+/*────────────────────────────
+    Appliacations part 3 Baby
+──────────────────────────────*/
+.applications-3
+{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+.application-3_1
+{
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    span
+    {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+}
+.application-3_1:hover
+{
+    background: rgb(240, 240, 240);
+    width: 200px;
+    border-radius: 10px 10px;
+}
+/*────────────────────────────
+    Appliacations part 4 Baby
+──────────────────────────────*/
+.applications-4
+{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+.application-4_1
+{
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    span
+    {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+}
+.application-4_1:hover
+{
+    background: rgb(240, 240, 240);
+    width: 200px;
+    border-radius: 10px 10px;
+}
+
+.main
+{
+    border: 2px solid white;
+    margin-left: 260px;
+    width: 82%;
+}
+div.suggestion{
+    background-color: #ffffff;
+    margin: 5px;
+    height: 70px;
+    overflow: auto;
+    white-space: nowrap;
+}
+  
+div.suggestion a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px;
+    border: 2px solid silver;
+    border-radius: 15px 15px;
+    text-decoration: none;
+}
+  
+div.suggestion a:hover {
+    background-color: #777;
+}
+.videos{
+    margin-top: 15px;
+}
+.box1{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    img{
+        width: 405px;
+        border-radius: 30px;
+    }
+}
+.box3
+{
+    img{
+        width: 100%;
+    }
+}
+.box5
+{
+    img{
+        width: 100%;
+    }
+}
+.box4
+{
+    img{
+        width: 100%;
+    }
+}
+.home-menu{
+    display: flex;
+    width: 100%;
+    padding-top: 5px;
+}
+  
+
+/* Set the background color of body to tan */
+/* body {
+    background-color: rgb(188, 182, 182);
+  } */
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  /* @media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(143, 143, 151);
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  /* @media screen and (max-width: 600px) 
+  {
+    body
+    {
+      background-color: olive;
+    }
+
+    .header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header--search input
+    {
+        width: 100px;
+    } */ 
